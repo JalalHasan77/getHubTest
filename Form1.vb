@@ -3,8 +3,6 @@
         Dim [OF] As New OpenFileDialog
         If [OF].ShowDialog = DialogResult.OK Then
 
-
-
             PictureBox1.Image = Image.FromFile([OF].FileName)
             PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         End If
